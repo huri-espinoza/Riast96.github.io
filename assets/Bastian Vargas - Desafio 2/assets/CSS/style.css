@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.header {
+    height: 8em;
+    width: 100%;
+    padding: 0;
+    color: white;
+    background-color: #4d55a0;
+}
+
+.header img {
+    place-content: center start;
+    margin: 0 2em;
+    align-self: center;
+    width: 8em;
+}
+
+.eslogan {
+    margin-top: -8em;
+    margin-left: 9em;
+    font-size: 1.3em;
+}
+
+.titulo {
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: -5.8em;
+    text-align: center;
+    justify-self: center;
+}
+
+.planes {
+    background-color: white;
+    padding: 3em;
+    text-align: center;
+}
+
+table {
+    font-size: 1.5em;
+    border-radius: 2em;
+    background-color: #4ca3a6;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem auto;
+    border-spacing: 0;
+}
+
+table img {
+    border-radius: 10px;
+    width: 5rem;
+}
+
+
+th, td {
+    padding: 0.5em 1em;
+}
+
+thead tr th{
+    padding: 1em 0;
+}
+
+td div p {
+    font-style: italic;
+    font-size: 1rem;
+}
+th div p{
+    font-size: 1rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.precios{
+    font-size: 2em;
+}
+
+.color1{
+    background-color: #58b1b4;
+}
+
+.color2{
+    background-color: #74c5c8;
+}
+
+.bordeArriba{
+    border-top: solid 2px;
+    border-color: #6ab4a3;
+}
+
+.bordeIzq{
+    border-left: solid 2px;
+    border-color: #6ab4a3;
+}
+
+.footer{
+    padding: 0.5em;
+    text-align: center;
+    background-color: #ed6a4c;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer div{
+    margin: 0.5em;
+}

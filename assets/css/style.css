@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #353353;
+    margin-top: 0px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    cursor: default;
+}
+
+.spacer{
+    height: 3rem;
+}
+
+/* ============ Navbar ============= */
+
+header{
+    background-color: #353353;
+    z-index: 2;
+}
+
+.borde-abajo{
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* ============ Main =============== */
+
+main{
+    min-width: 20rem;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+/* ========== Seccion Inicio ============= */
+
+#Inicio{
+    height: 100vh;
+}
+
+.foto{
+    margin-top:30vh;
+    width: 12rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+.carrera{
+    font-size: 1.2rem;
+}
+
+.redes-sociales{
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.redes-sociales a{
+    color: white;
+}
+
+/* =========== Seccion sobre mi ============ */
+
+.sobre-mi{
+    width: 85vw;
+    max-width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.recuadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+.texto-introduccion{
+    width: auto;
+    height: auto;
+    background-color: #302f4e;
+    padding: 1.5rem;
+    font-weight: 500;
+}
+
+.texto-introduccion p{
+    font-size: 1.3rem;
+}
+
+/* ========== Educación=========== */
+
+.educacion{
+    width: 85vw;
+    max-width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    
+}
+
+.lista-educacion{
+    background-color: #302f4e;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);   
+}
+
+.lista-colegios{
+    margin-top: 1rem;
+}
+
+.espacio-colegio{
+    height: 24px;
+}
+
+.colegios {
+    padding-left: 1rem;
+}
+
+.colegios h4{
+    margin-bottom: 0;
+}
+
+.colegios-2{
+    margin: 1rem;
+}
+
+.colegios-2 h4{
+    margin-bottom: 0;
+}
+
+.fechas{
+    color: lightgray;
+}
+
+/* =========== Experiencia ========== */
+
+.experiencia{
+    width: 85vw;
+    max-width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.trabajos{    
+    background-color: #302f4e;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+/* ========== Habilidades ============*/
+
+.habilidades{
+    width: 85vw;
+    max-width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.lista-habilidades{    
+    background-color: #302f4e;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+
+.barra-progreso{
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    height: 6px;
+    margin-top: 10px;
+}
+
+.porcentaje-Gdevelop{
+    background-color: red;
+    border-radius: 15px;
+    width: 90%;
+    height: 6px;
+}
+
+.porcentaje-zbrush{
+    background-color:brown;
+    border-radius: 15px;
+    width: 75%;
+    height: 6px;
+}
+
+.porcentaje-maya{
+    background-color:cornflowerblue;
+    border-radius: 15px;
+    width: 80%;
+    height: 6px;
+}
+
+.porcentaje-blender{
+    background-color:gray;
+    border-radius: 15px;
+    width: 55%;
+    height: 6px;
+}
+
+.porcentaje-desarrollo{
+    background-color: yellow;
+    border-radius: 15px;
+    width: 60%;
+    height: 6px;
+}
+
+/* ============= Portafolio ============= */
+
+.portafolio{
+    width: 85vw;
+    max-width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.carrusel{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #302f4e;
+    margin-top: 1.5rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+.carousel-inner{
+    width: 70%;
+    justify-content: center;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+    
+}
+
+/* ============ Contacto ============== */
+
+.contacto{
+    width: 85vw;
+    max-width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.formulario-contacto{
+    padding: 1.5rem;
+    background-color: #302f4e;
+    margin-top: 1.5rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+.form-control{
+    max-height: 8rem;
+    overflow: auto;
+    background-color: lightgray;
+    border: 0px;
+
+}
+
+
