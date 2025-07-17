@@ -287,7 +287,12 @@ main{
     overflow: auto;
     background-color: lightgray;
     border: 0px;
-
 }
 
+/* ================= Footer ================ */
 
+footer{
+    border-top: 1px solid hsla(0, 0%, 100%, .2);
+    padding: 1rem;
+    text-align: center;
+}
