@@ -52,12 +52,8 @@ main{
 
 /* ========== Seccion Inicio ============= */
 
-#Inicio{
-    height: 100vh;
-}
-
 .foto{
-    margin-top:30vh;
+    margin-top:15vh;
     width: 12rem;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
 }
@@ -83,7 +79,6 @@ main{
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding-top: 5rem;
 }
 
 .recuadro{
